@@ -8,6 +8,7 @@ Table of Contents:
 - [Dexeption Muv](#dexeption-muv)
   - [Links](#links)
   - [Features](#features)
+  - [REST API Endpoints](#rest-api-endpoints)
 
 ## Links
 
@@ -46,4 +47,57 @@ Inspirations:
   - Order summary
     - Product items to buy
     - Grand total of all product items to buy
+  - Shipping address form
+    Name, email, phone, address, province, city, postal code
 - Place order / transaction is being processed
+
+## REST API Endpoints
+
+- Production: `https://dexeption-muv-api.indahmutiah.com`
+- Local: `http://localhost:3000`
+
+| Endpoint         | HTTP     | Description               |
+| ---------------- | -------- | ------------------------- |
+| `/products`      | `GET`    | Get all products          |
+| `/products/:id`  | `GET`    | Get product by id         |
+| `/products/seed` | `POST`   | Seed all initial products |
+| `/products`      | `POST`   | Add new product           |
+| `/products`      | `DELETE` | Delete all products       |
+| `/products/:id`  | `DELETE` | Delete product by id      |
+| `/products/:id`  | `PUT`    | Update product by id      |
+
+more endopoints later
+
+### Product
+
+```json
+{
+  "id": "ULID123",
+  "name": "Astec ",
+  "series": "Storm Z9000 Badminton",
+  "price": 799000
+}
+```
+
+### Add New Product
+
+Request Body:
+
+```json
+{
+  "name": "Samurai Shuttlecock",
+  "series": "Speed 78 Semi Spin",
+  "price": 135000
+}
+```
+
+Response Body:
+
+```json
+{
+  "id": "abc123",
+  "name": "Samurai Shuttlecock",
+  "series": "Speed 78 Semi Spin",
+  "price": 120000
+}
+```
