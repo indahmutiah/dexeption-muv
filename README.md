@@ -22,7 +22,7 @@ Inspirations:
 
 - <https://www.decathlon.co.id/c/olahraga-raket/badminton/perlengkapan-badminton.html#>
 - <https://www.rumahflypower.id/>
-- <https://www.planetsports.asia/equipment/eq-badminton.html >
+- <https://www.planetsports.asia/equipment/eq-badminton.html>
 
 ## Features
 
