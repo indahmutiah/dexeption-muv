@@ -6,9 +6,15 @@ Dexeption Muv is an e-commerce personal project dedicated to badminton enthusias
 Table of Contents:
 
 - [Dexeption Muv](#dexeption-muv)
+  - [Technologies](#technologies)
   - [Links](#links)
   - [Features](#features)
   - [REST API Endpoints](#rest-api-endpoints)
+
+## Technologies
+
+- Frontend: React, Bun, TailwindCSS, ShadcnUI, Typescript, React Icons
+- Backend: Bun, Hono, Typescript, Postgresql, Prisma ORM, Docker
 
 ## Links
 
