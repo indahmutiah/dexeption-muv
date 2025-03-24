@@ -95,7 +95,6 @@ Request Body:
   "name": "Samurai Shuttlecock",
   "series": "Speed 78 Semi Spin",
   "category": "accesories",
-
   "price": 135000
 }
 ```
@@ -108,7 +107,6 @@ Response Body:
   "name": "Samurai Shuttlecock",
   "series": "Speed 78 Semi Spin",
   "category": "accesories",
-
   "price": 120000
 }
 ```
