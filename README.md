@@ -1,11 +1,11 @@
-# Dexeption Muv
+# Nepak Point
 
-Dexeption Muv is an e-commerce personal project dedicated to badminton enthusiasts,providing high-quality equipment, accessories, and apparel to enhance their game experience.
-[Dexeption Muv](https://dexeption-muv.indahmutiah.com)
+Nepak Point is an e-commerce personal project dedicated to badminton enthusiasts,providing high-quality equipment, accessories, and apparel to enhance their game experience.
+[Nepak Point](https://nepak-point.indahmutiah.com)
 
 Table of Contents:
 
-- [Dexeption Muv](#dexeption-muv)
+- [Nepak Point](#nepak-point)
   - [Technologies](#technologies)
   - [Links](#links)
   - [Features](#features)
@@ -18,12 +18,12 @@ Table of Contents:
 
 ## Links
 
-- Website/Frontend: <https://dexeption-muv.indahmutiah.com>
-  - Backend: <https://dexeption-muv-api.indahmutiah.com>
+- Website/Frontend: <https://nepak-point.indahmutiah.com>
+  - Backend: <https://nepak-point-api.indahmutiah.com>
 - Repositories:
-  - General: <https://github.com/indahmutiah/dexeption-muv>
-  - Backend: <https://github.com/indahmutiah/dexeption-muv-api>
-  - Frontend: <https://github.com/indahmutiah/dexeption-muv-web>
+  - General: <https://github.com/indahmutiah/nepak-point>
+  - Backend: <https://github.com/indahmutiah/nepak-point-api>
+  - Frontend: <https://github.com/indahmutiah/nepak-point-web>
 
 Inspirations:
 
@@ -59,7 +59,7 @@ Inspirations:
 
 ## REST API Endpoints
 
-- Production: `https://dexeption-muv-api.indahmutiah.com`
+- Production: `https://nepak-point-api.indahmutiah.com`
 - Local: `http://localhost:3000`
 
 | Endpoint         | HTTP     | Description               |
@@ -81,6 +81,7 @@ more endopoints later
   "id": "ULID123",
   "name": "Astec ",
   "series": "Storm Z9000 Badminton",
+  "category": "racket",
   "price": 799000
 }
 ```
@@ -93,6 +94,8 @@ Request Body:
 {
   "name": "Samurai Shuttlecock",
   "series": "Speed 78 Semi Spin",
+  "category": "accesories",
+
   "price": 135000
 }
 ```
@@ -104,6 +107,8 @@ Response Body:
   "id": "abc123",
   "name": "Samurai Shuttlecock",
   "series": "Speed 78 Semi Spin",
+  "category": "accesories",
+
   "price": 120000
 }
 ```
